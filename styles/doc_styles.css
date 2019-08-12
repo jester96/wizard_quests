@@ -1,0 +1,536 @@
+@font-face {
+  font-family: fira_go_bold;
+  src: url(../fonts/fira_go_bold.ttf); }
+@font-face {
+  font-family: fira_go_semibold;
+  src: url(../fonts/fira_go_semibold.ttf); }
+@font-face {
+  font-family: fira_go_regular;
+  src: url(../fonts/fira_go_regular.ttf); }
+@font-face {
+  font-family: montserrat_bold;
+  src: url(../fonts/montserrat_bold.ttf); }
+@font-face {
+  font-family: montserrat_semibold;
+  src: url(../fonts/montserrat_semibold.ttf); }
+@font-face {
+  font-family: montserrat_regular;
+  src: url(../fonts/montserrat_regular.ttf); }
+@font-face {
+  font-family: open_sans_bold;
+  src: url(../fonts/open_sans_bold.ttf); }
+@font-face {
+  font-family: open_sans_semibold;
+  src: url(../fonts/open_sans_semibold.ttf); }
+@font-face {
+  font-family: roboto_regular;
+  src: url(../fonts/roboto_regular.ttf); }
+/* line 63, doc_styles.scss */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #151c44;
+  word-wrap: break-word; }
+
+/* line 71, doc_styles.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+/* line 75, doc_styles.scss */
+img {
+  height: 100%;
+  width: auto; }
+
+/* line 92, doc_styles.scss */
+.controlers {
+  position: relative; }
+
+/* line 96, doc_styles.scss */
+.controlers .fixed {
+  position: fixed;
+  width: 300px; }
+
+/* line 101, doc_styles.scss */
+.colors .mar {
+  width: 9%; }
+
+/* line 105, doc_styles.scss */
+.relative {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; }
+
+/* line 115, doc_styles.scss */
+.dark_blue_color {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: #151c44; }
+
+/* line 120, doc_styles.scss */
+.white_color {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: #fff;
+  border: 2px solid #151c44; }
+
+/* line 126, doc_styles.scss */
+.success_color {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: #10ec87; }
+
+/* line 131, doc_styles.scss */
+.success_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(-90deg, #10ec87 0%, #10c2a7 100%); }
+
+/* line 136, doc_styles.scss */
+.warning_color {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: #f79518; }
+
+/* line 141, doc_styles.scss */
+.warning_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #f79518 0%, #cfb51a 100%); }
+
+/* line 146, doc_styles.scss */
+.wrong_color {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: #f24253; }
+
+/* line 151, doc_styles.scss */
+.wrong_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #f53c31 0%, #ff6c4c 100%); }
+
+/* line 158, doc_styles.scss */
+.blue_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(120deg, #335fb8 0%, #1da3e4 100%); }
+
+/* line 163, doc_styles.scss */
+.red_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(120deg, #ec1010 0%, #ff7045 100%); }
+
+/* line 168, doc_styles.scss */
+.yellow_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(120deg, #ff9845 0%, #ffbb45 100%); }
+
+/* line 173, doc_styles.scss */
+.green_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(120deg, #10ec87 0%, #10c2a7 100%); }
+
+/* line 178, doc_styles.scss */
+.purple_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(120deg, #43197c 0%, #bc37e2 100%); }
+
+/* line 183, doc_styles.scss */
+.fb_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(120deg, #0969d7 0%, #439cd4 100%); }
+
+/* line 188, doc_styles.scss */
+.google_gradient {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(120deg, #ea2f2f 0%, #f14b4b 100%); }
+
+/* line 195, doc_styles.scss */
+.bg_light_blue_gradient {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(61, 78, 109, 0.9) 0%, rgba(124, 184, 221, 0.9) 100%); }
+
+/* line 201, doc_styles.scss */
+.bg_dark_blue_gradient {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(34, 47, 69, 0.9) 0%, rgba(72, 128, 187, 0.9) 100%); }
+
+/* line 207, doc_styles.scss */
+.bg_purple_gradient {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(121, 100, 162, 0.9) 0%, rgba(61, 48, 94, 0.9) 100%); }
+
+/* line 213, doc_styles.scss */
+.dark_overlay {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  background: rgba(57, 44, 54, 0.8); }
+
+/* line 219, doc_styles.scss */
+.white_overlay {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.15); }
+
+/* line 225, doc_styles.scss */
+.challenge_overlay {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  background: rgba(8, 17, 42, 0.3); }
+
+/* line 231, doc_styles.scss */
+.footer_overlay {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  background: rgba(8, 17, 42, 0.7); }
+
+/* line 237, doc_styles.scss */
+.modal_bg_overlay {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  background: rgba(5, 12, 28, 0.8); }
+
+/* line 243, doc_styles.scss */
+.modal_bg_blur {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  filter: blur(8px);
+  -webkit-filter: blur(8px); }
+
+/* line 253, doc_styles.scss */
+.ge h1, .ge h3, .ge h5 {
+  font-family: fira_go_bold; }
+/* line 259, doc_styles.scss */
+.ge h2, .ge h4, .ge h6 {
+  font-family: fira_go_semibold; }
+/* line 265, doc_styles.scss */
+.ge p, .ge span, .ge div {
+  font-family: fira_go_regular; }
+
+/* line 273, doc_styles.scss */
+.en h1, .en h3, .en h5 {
+  font-family: montserrat_bold; }
+/* line 279, doc_styles.scss */
+.en h2, .en h4, .en h6 {
+  font-family: montserrat_semibold; }
+/* line 285, doc_styles.scss */
+.en p, .en span, .en div {
+  font-family: montserrat_regular; }
+
+/* line 293, doc_styles.scss */
+.ru h1, .ru h3, .ru h5 {
+  font-family: open_sans_bold; }
+/* line 299, doc_styles.scss */
+.ru h2, .ru h4, .ru h6 {
+  font-family: open_sans_semibold; }
+/* line 305, doc_styles.scss */
+.ru p, .ru span, .ru div {
+  font-family: roboto_regular; }
+
+/* line 312, doc_styles.scss */
+.golden_gradient {
+  height: 50px;
+  width: 200px; }
+  /* line 51, _atoms.scss */
+  .golden_gradient {
+    position: relative;
+    background: transparent;
+    border: 10px solid transparent;
+    border-radius: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at bottom left, #ffa048 0%, #bf7334 2%, #e1883d 3%, #fb9744 6%, #d3823a 14%, #9e5e2b 30%, #b87433 34%, #aa642e 37%, #e58c3f 41%, #ffdf69 45%, #ffff81 49%, #ffa84a 53%, #fb9744 58%, #ffa84a 61%, #ffa84a 63%, #ffa84a 69%, #ffb952 73%, #ffb952 76%, #ffb04e 81%, #ffa84a 85%, #ffb952 91%, #eb9040 95%, #ffa449 100%); }
+
+/* line 318, doc_styles.scss */
+.silver_gradient {
+  height: 50px;
+  width: 200px; }
+  /* line 65, _atoms.scss */
+  .silver_gradient {
+    position: relative;
+    background: transparent;
+    border: 10px solid transparent;
+    border-radius: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at bottom left, #fae1c9 0%, #a3978d 2%, #ead6c5 6%, #dfd2c7 9%, #d8c6b5 19%, #91847a 29%, #b8a99b 34%, #ab9b8e 37%, #dfcfc0 41%, #fef7dd 45%, #fdfdd8 49%, #d8cdc0 53%, #f3e4d7 58%, #e0d2c3 60%, #cfc4b7 63%, #fdead5 69%, #faebd4 72%, #faebd9 81%, #feefde 85%, #feecd1 91%, #ece2d9 95%, #e5d5c5 100%); }
+
+/* line 324, doc_styles.scss */
+.blue_btn {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 51, _atoms.scss */
+  .blue_btn {
+    position: relative;
+    background: transparent;
+    border: 6px solid transparent;
+    border-radius: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at bottom left, #ffa048 0%, #bf7334 2%, #e1883d 3%, #fb9744 6%, #d3823a 14%, #9e5e2b 30%, #b87433 34%, #aa642e 37%, #e58c3f 41%, #ffdf69 45%, #ffff81 49%, #ffa84a 53%, #fb9744 58%, #ffa84a 61%, #ffa84a 63%, #ffa84a 69%, #ffb952 73%, #ffb952 76%, #ffb04e 81%, #ffa84a 85%, #ffb952 91%, #eb9040 95%, #ffa449 100%); }
+  /* line 17, _buttons.scss */
+  .blue_btn:before {
+    background: linear-gradient(120deg, #335fb8 0%, #1da3e4 100%);
+    content: '';
+    width: 100.5%;
+    height: 100.5%;
+    border-radius: 2000px;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); }
+  /* line 27, _buttons.scss */
+  .blue_btn p {
+    color: #fff;
+    z-index: 1; }
+
+/* line 328, doc_styles.scss */
+.red_btn {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 51, _atoms.scss */
+  .red_btn {
+    position: relative;
+    background: transparent;
+    border: 6px solid transparent;
+    border-radius: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at bottom left, #ffa048 0%, #bf7334 2%, #e1883d 3%, #fb9744 6%, #d3823a 14%, #9e5e2b 30%, #b87433 34%, #aa642e 37%, #e58c3f 41%, #ffdf69 45%, #ffff81 49%, #ffa84a 53%, #fb9744 58%, #ffa84a 61%, #ffa84a 63%, #ffa84a 69%, #ffb952 73%, #ffb952 76%, #ffb04e 81%, #ffa84a 85%, #ffb952 91%, #eb9040 95%, #ffa449 100%); }
+  /* line 37, _buttons.scss */
+  .red_btn:before {
+    background: linear-gradient(120deg, #ec1010 0%, #ff7045 100%);
+    content: '';
+    width: 100.5%;
+    height: 100.5%;
+    border-radius: 2000px;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); }
+  /* line 47, _buttons.scss */
+  .red_btn p {
+    color: #fff;
+    z-index: 1; }
+
+/* line 332, doc_styles.scss */
+.yellow_btn {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 51, _atoms.scss */
+  .yellow_btn {
+    position: relative;
+    background: transparent;
+    border: 6px solid transparent;
+    border-radius: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at bottom left, #ffa048 0%, #bf7334 2%, #e1883d 3%, #fb9744 6%, #d3823a 14%, #9e5e2b 30%, #b87433 34%, #aa642e 37%, #e58c3f 41%, #ffdf69 45%, #ffff81 49%, #ffa84a 53%, #fb9744 58%, #ffa84a 61%, #ffa84a 63%, #ffa84a 69%, #ffb952 73%, #ffb952 76%, #ffb04e 81%, #ffa84a 85%, #ffb952 91%, #eb9040 95%, #ffa449 100%); }
+  /* line 57, _buttons.scss */
+  .yellow_btn:before {
+    background: linear-gradient(120deg, #ff9845 0%, #ffbb45 100%);
+    content: '';
+    width: 100.5%;
+    height: 100.5%;
+    border-radius: 2000px;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); }
+  /* line 67, _buttons.scss */
+  .yellow_btn p {
+    color: #fff;
+    z-index: 1; }
+
+/* line 336, doc_styles.scss */
+.green_btn {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 51, _atoms.scss */
+  .green_btn {
+    position: relative;
+    background: transparent;
+    border: 6px solid transparent;
+    border-radius: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at bottom left, #ffa048 0%, #bf7334 2%, #e1883d 3%, #fb9744 6%, #d3823a 14%, #9e5e2b 30%, #b87433 34%, #aa642e 37%, #e58c3f 41%, #ffdf69 45%, #ffff81 49%, #ffa84a 53%, #fb9744 58%, #ffa84a 61%, #ffa84a 63%, #ffa84a 69%, #ffb952 73%, #ffb952 76%, #ffb04e 81%, #ffa84a 85%, #ffb952 91%, #eb9040 95%, #ffa449 100%); }
+  /* line 77, _buttons.scss */
+  .green_btn:before {
+    background: linear-gradient(120deg, #10ec87 0%, #10c2a7 100%);
+    content: '';
+    width: 100.5%;
+    height: 100.5%;
+    border-radius: 2000px;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); }
+  /* line 87, _buttons.scss */
+  .green_btn p {
+    color: #fff;
+    z-index: 1; }
+
+/* line 340, doc_styles.scss */
+.purple_btn {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 51, _atoms.scss */
+  .purple_btn {
+    position: relative;
+    background: transparent;
+    border: 6px solid transparent;
+    border-radius: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at bottom left, #ffa048 0%, #bf7334 2%, #e1883d 3%, #fb9744 6%, #d3823a 14%, #9e5e2b 30%, #b87433 34%, #aa642e 37%, #e58c3f 41%, #ffdf69 45%, #ffff81 49%, #ffa84a 53%, #fb9744 58%, #ffa84a 61%, #ffa84a 63%, #ffa84a 69%, #ffb952 73%, #ffb952 76%, #ffb04e 81%, #ffa84a 85%, #ffb952 91%, #eb9040 95%, #ffa449 100%); }
+  /* line 97, _buttons.scss */
+  .purple_btn:before {
+    background: linear-gradient(120deg, #43197c 0%, #bc37e2 100%);
+    content: '';
+    width: 100.5%;
+    height: 100.5%;
+    border-radius: 2000px;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); }
+  /* line 107, _buttons.scss */
+  .purple_btn p {
+    color: #fff;
+    z-index: 1; }
+
+/* line 344, doc_styles.scss */
+.fb_btn {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 65, _atoms.scss */
+  .fb_btn {
+    position: relative;
+    background: transparent;
+    border: 6px solid transparent;
+    border-radius: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at bottom left, #fae1c9 0%, #a3978d 2%, #ead6c5 6%, #dfd2c7 9%, #d8c6b5 19%, #91847a 29%, #b8a99b 34%, #ab9b8e 37%, #dfcfc0 41%, #fef7dd 45%, #fdfdd8 49%, #d8cdc0 53%, #f3e4d7 58%, #e0d2c3 60%, #cfc4b7 63%, #fdead5 69%, #faebd4 72%, #faebd9 81%, #feefde 85%, #feecd1 91%, #ece2d9 95%, #e5d5c5 100%); }
+  /* line 117, _buttons.scss */
+  .fb_btn:before {
+    background: linear-gradient(120deg, #0969d7 0%, #439cd4 100%);
+    content: '';
+    width: 100.5%;
+    height: 100.5%;
+    border-radius: 2000px;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); }
+  /* line 127, _buttons.scss */
+  .fb_btn p {
+    color: #fff;
+    z-index: 1; }
+
+/* line 348, doc_styles.scss */
+.google_btn {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 65, _atoms.scss */
+  .google_btn {
+    position: relative;
+    background: transparent;
+    border: 6px solid transparent;
+    border-radius: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at bottom left, #fae1c9 0%, #a3978d 2%, #ead6c5 6%, #dfd2c7 9%, #d8c6b5 19%, #91847a 29%, #b8a99b 34%, #ab9b8e 37%, #dfcfc0 41%, #fef7dd 45%, #fdfdd8 49%, #d8cdc0 53%, #f3e4d7 58%, #e0d2c3 60%, #cfc4b7 63%, #fdead5 69%, #faebd4 72%, #faebd9 81%, #feefde 85%, #feecd1 91%, #ece2d9 95%, #e5d5c5 100%); }
+  /* line 137, _buttons.scss */
+  .google_btn:before {
+    background: linear-gradient(120deg, #ea2f2f 0%, #f14b4b 100%);
+    content: '';
+    width: 100.5%;
+    height: 100.5%;
+    border-radius: 2000px;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); }
+  /* line 147, _buttons.scss */
+  .google_btn p {
+    color: #fff;
+    z-index: 1; }
+
+/* line 352, doc_styles.scss */
+.icon_div {
+  display: inline-flex;
+  width: 20%;
+  padding: 15px;
+  align-items: center; }
+  /* line 358, doc_styles.scss */
+  .icon_div span {
+    word-break: break-word; }
+  /* line 362, doc_styles.scss */
+  .icon_div span:first-child {
+    font-size: 30px;
+    padding-right: 15px; }
+  /* line 367, doc_styles.scss */
+  .icon_div span:last-child {
+    font-size: 24px; }
+
+/* line 372, doc_styles.scss */
+#buttons .mar {
+  width: 20%; }
+
+/* line 376, doc_styles.scss */
+#icons {
+  margin-bottom: 50px; }

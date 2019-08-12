@@ -1,0 +1,93 @@
+.gr_1,
+.gr_2,
+.gr_2_5,
+.gr_3,
+.gr_4,
+.gr_5,
+.gr_6,
+.gr_7,
+.gr_8,
+.gr_9,
+.gr_10,
+.gr_11,
+.gr_12 {
+	display: block;
+	float: left;
+	padding: 15px;
+}
+
+.gr_1 {
+	width: 8.33333333%;
+}
+
+.gr_2 {
+	width: 16.66666667%;
+}
+
+.gr_2_5 {
+	width: 20%;
+}
+
+.gr_3 {
+	width: 25%;
+}
+
+.gr_4 {
+	width: 33.33333333%;
+}
+
+.gr_5 {
+	width: 41.66666667%;
+}
+
+.gr_6 {
+	width: 50%;
+}
+
+.gr_7 {
+	width: 58.33333333%;
+}
+
+.gr_8 {
+	width: 66.66666667%;
+}
+
+.gr_9 {
+	width: 75%;
+}
+
+.gr_10 {
+	width: 83.33333333%;
+}
+
+.gr_11 {
+	width: 91.66666667%;
+}
+
+.gr_12 {
+	width: 100%;
+}
+
+.pad {
+	padding: 15px;
+	float: left;
+}
+
+.pad_top_bot {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.mar {
+	margin: 15px;
+	float: left;
+}
+
+.mar_left {
+	margin: 0;
+	margin-left: 15px;
+}
+
+.clear {
+	clear: both;
+}

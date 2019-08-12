@@ -1,0 +1,378 @@
+@import '_atoms.scss';
+@import '_buttons.scss';
+
+//Geo Font Start
+
+@font-face {
+	font-family: fira_go_bold;
+	src: url(../fonts/fira_go_bold.ttf);
+}
+
+@font-face {
+	font-family: fira_go_semibold;
+	src: url(../fonts/fira_go_semibold.ttf);
+}
+
+@font-face {
+	font-family: fira_go_regular;
+	src: url(../fonts/fira_go_regular.ttf);
+}
+
+//Geo Font End
+
+//Eng Font Start
+
+@font-face {
+	font-family: montserrat_bold;
+	src: url(../fonts/montserrat_bold.ttf);
+}
+
+@font-face {
+	font-family: montserrat_semibold;
+	src: url(../fonts/montserrat_semibold.ttf);
+}
+
+@font-face {
+	font-family: montserrat_regular;
+	src: url(../fonts/montserrat_regular.ttf);
+}
+
+//Eng Font End
+
+//Rus Font Start
+
+@font-face {
+	font-family: open_sans_bold;
+	src: url(../fonts/open_sans_bold.ttf);
+}
+
+@font-face {
+	font-family: open_sans_semibold;
+	src: url(../fonts/open_sans_semibold.ttf);
+}
+
+@font-face {
+	font-family: roboto_regular;
+	src: url(../fonts/roboto_regular.ttf);
+}
+
+//Rus Font End
+
+//Gradients
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: $dark_blue_color;
+	word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+img {
+	height: 100%;
+	width: auto;
+}
+
+@mixin block_sizes {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+@mixin block_sizes_ab {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+
+.controlers {
+	position: relative;
+}
+
+.controlers .fixed {
+	position: fixed;
+	width: 300px;
+}
+
+.colors .mar {
+	width: 9%;
+}
+
+.relative {
+	position: relative;
+	height: 100px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+//Simple Colors
+
+.dark_blue_color {
+	@include block_sizes;
+	background: $dark_blue_color;
+}
+
+.white_color {
+	@include block_sizes;
+	background: $white_color;
+	border: 2px solid $dark_blue_color;
+}
+
+.success_color {
+	@include block_sizes;
+	background: $success_color;
+}
+
+.success_gradient {
+	@include block_sizes;
+	background: $success_gradient;
+}
+
+.warning_color {
+	@include block_sizes;
+	background: $warning_color;
+}
+
+.warning_gradient {
+	@include block_sizes;
+	background: $warning_gradient;
+}
+
+.wrong_color {
+	@include block_sizes;
+	background: $wrong_color;
+}
+
+.wrong_gradient {
+	@include block_sizes;
+	background: $wrong_gradient;
+}
+
+//Gradients
+
+.blue_gradient {
+	@include block_sizes;
+	background: $blue_gradient;
+}
+
+.red_gradient {
+	@include block_sizes;
+	background: $red_gradient;
+}
+
+.yellow_gradient {
+	@include block_sizes;
+	background: $yellow_gradient;
+}
+
+.green_gradient {
+	@include block_sizes;
+	background: $green_gradient;
+}
+
+.purple_gradient {
+	@include block_sizes;
+	background: $purple_gradient;
+}
+
+.fb_gradient {
+	@include block_sizes;
+	background: $fb_gradient;
+}
+
+.google_gradient {
+	@include block_sizes;
+	background: $google_gradient;
+}
+
+//Backgrounds & Overlays
+
+.bg_light_blue_gradient {
+	@include block_sizes_ab;
+	position: absolute;
+	background: $bg_light_blue_gradient;
+}
+
+.bg_dark_blue_gradient {
+	@include block_sizes_ab;
+	position: absolute;
+	background: $bg_dark_blue_gradient;
+}
+
+.bg_purple_gradient {
+	@include block_sizes_ab;
+	position: absolute;
+	background: $bg_purple_gradient;
+}
+
+.dark_overlay {
+	@include block_sizes_ab;
+	position: absolute;
+	background: $dark_overlay;
+}
+
+.white_overlay {
+	@include block_sizes_ab;
+	position: absolute;
+	background: $white_overlay;
+}
+
+.challenge_overlay {
+	@include block_sizes_ab;
+	position: absolute;
+	background: $challenge_overlay;
+}
+
+.footer_overlay {
+	@include block_sizes_ab;
+	position: absolute;
+	background: $footer_overlay;
+}
+
+.modal_bg_overlay {
+	@include block_sizes_ab;
+	position: absolute;
+	background: $modal_bg_overlay;
+}
+
+.modal_bg_blur {
+	@include block_sizes_ab;
+	position: absolute;
+	filter: $modal_bg_blur;
+	-webkit-filter: $modal_bg_blur;
+}
+
+//Atoms End
+
+.ge {
+	& h1,
+	& h3,
+	& h5 {
+		font-family: fira_go_bold;
+	}
+	
+	& h2,
+	& h4,
+	& h6 {
+		font-family: fira_go_semibold;
+	}
+	
+	& p,
+	& span,
+	& div {
+		font-family: fira_go_regular;
+	}
+}
+
+.en {
+	& h1,
+	& h3,
+	& h5 {
+		font-family: montserrat_bold;
+	}
+	
+	& h2,
+	& h4,
+	& h6 {
+		font-family: montserrat_semibold;
+	}
+	
+	& p,
+	& span,
+	& div  {
+		font-family: montserrat_regular;
+	}
+}
+
+.ru {
+	& h1,
+	& h3,
+	& h5 {
+		font-family: open_sans_bold;
+	}
+	
+	& h2,
+	& h4,
+	& h6 {
+		font-family: open_sans_semibold;
+	}
+	
+	& p,
+	& span,
+	& div {
+		font-family: roboto_regular;
+	}
+}
+
+.golden_gradient {
+	height: 50px;
+	width: 200px;
+	@include golden_gradient(10px);
+}
+
+.silver_gradient {
+	height: 50px;
+	width: 200px;
+	@include silver_gradient(10px);
+}
+
+.blue_btn {
+	@include blue_btn(70px, 200px, 6px);
+}
+
+.red_btn {
+	@include red_btn(70px, 200px, 6px);
+}
+
+.yellow_btn {
+	@include yellow_btn(70px, 200px, 6px);
+}
+
+.green_btn {
+	@include green_btn(70px, 200px, 6px);
+}
+
+.purple_btn {
+	@include purple_btn(70px, 200px, 6px);
+}
+
+.fb_btn {
+	@include fb_btn(70px, 200px, 6px);
+}
+
+.google_btn {
+	@include google_btn(70px, 200px, 6px);
+}
+
+.icon_div {
+	display: inline-flex;
+    width: 20%;
+	padding: 15px;
+	align-items: center;
+	
+	& span {
+		word-break: break-word;
+	}
+	
+	& span:first-child {
+		font-size: 30px;
+    	padding-right: 15px;
+	}
+	
+	& span:last-child {
+		font-size: 24px;
+	}
+}
+
+#buttons .mar {
+	width: 20%;
+}
+
+#icons {
+	margin-bottom: 50px;
+}

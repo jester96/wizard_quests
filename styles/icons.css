@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'wizards';
+    src:  url('../fonts/icons/wizards.eot?v7jn3g');
+    src:  url('../fonts/icons/wizards.eot?v7jn3g#iefix') format('embedded-opentype'),
+      url('../fonts/icons/wizards.ttf?v7jn3g') format('truetype'),
+      url('../fonts/icons/wizards.woff?v7jn3g') format('woff'),
+      url('../fonts/icons/wizards.svg?v7jn3g#wizards') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="wiz_"], [class*=" wiz_"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'wizards' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .wiz_address:before {
+    content: "\e900";
+  }
+  .wiz_arrow_down:before {
+    content: "\e901";
+  }
+  .wiz_arrow_left:before {
+    content: "\e902";
+  }
+  .wiz_arrow_right:before {
+    content: "\e903";
+  }
+  .wiz_arrow_up:before {
+    content: "\e904";
+  }
+  .wiz_bad_tick:before {
+    content: "\e905";
+  }
+  .wiz_boy:before {
+    content: "\e906";
+  }
+  .wiz_calendar:before {
+    content: "\e907";
+  }
+  .wiz_clock:before {
+    content: "\e908";
+  }
+  .wiz_close:before {
+    content: "\e909";
+  }
+  .wiz_comment:before {
+    content: "\e90a";
+  }
+  .wiz_credit_card:before {
+    content: "\e90b";
+  }
+  .wiz_download:before {
+    content: "\e90c";
+  }
+  .wiz_drag:before {
+    content: "\e90d";
+  }
+  .wiz_envelope:before {
+    content: "\e90e";
+  }
+  .wiz_envelope_new:before {
+    content: "\e90f";
+  }
+  .wiz_envelope_outline:before {
+    content: "\e910";
+  }
+  .wiz_eye:before {
+    content: "\e911";
+  }
+  .wiz_facebook:before {
+    content: "\e912";
+  }
+  .wiz_fat_arrow_down:before {
+    content: "\e913";
+  }
+  .wiz_fat_arrow_left:before {
+    content: "\e914";
+  }
+  .wiz_fat_arrow_right:before {
+    content: "\e915";
+  }
+  .wiz_fat_arrow_up:before {
+    content: "\e916";
+  }
+  .wiz_fat_close:before {
+    content: "\e917";
+  }
+  .wiz_girl:before {
+    content: "\e918";
+  }
+  .wiz_half_star:before {
+    content: "\e919";
+  }
+  .wiz_hor_scroll:before {
+    content: "\e91a";
+  }
+  .wiz_info:before {
+    content: "\e91b";
+  }
+  .wiz_instagram:before {
+    content: "\e91c";
+  }
+  .wiz_lari:before {
+    content: "\e91d";
+  }
+  .wiz_link:before {
+    content: "\e91e";
+  }
+  .wiz_linkedin:before {
+    content: "\e91f";
+  }
+  .wiz_menu:before {
+    content: "\e920";
+  }
+  .wiz_no_photo:before {
+    content: "\e921";
+  }
+  .wiz_notification:before {
+    content: "\e922";
+  }
+  .wiz_pdf:before {
+    content: "\e923";
+  }
+  .wiz_pencil:before {
+    content: "\e924";
+  }
+  .wiz_phone:before {
+    content: "\e925";
+  }
+  .wiz_photo:before {
+    content: "\e926";
+  }
+  .wiz_plus:before {
+    content: "\e927";
+  }
+  .wiz_progress:before {
+    content: "\e928";
+  }
+  .wiz_purchase:before {
+    content: "\e929";
+  }
+  .wiz_refferals:before {
+    content: "\e92a";
+  }
+  .wiz_send:before {
+    content: "\e92b";
+  }
+  .wiz_sign_out:before {
+    content: "\e92c";
+  }
+  .wiz_sound_off:before {
+    content: "\e92d";
+  }
+  .wiz_sound_on:before {
+    content: "\e92e";
+  }
+  .wiz_star:before {
+    content: "\e92f";
+  }
+  .wiz_star_outline:before {
+    content: "\e930";
+  }
+  .wiz_statistic:before {
+    content: "\e931";
+  }
+  .wiz_thin_arrow_down:before {
+    content: "\e932";
+  }
+  .wiz_thin_arrow_left:before {
+    content: "\e933";
+  }
+  .wiz_thin_arrow_right:before {
+    content: "\e934";
+  }
+  .wiz_thin_arrow_up:before {
+    content: "\e935";
+  }
+  .wiz_tick:before {
+    content: "\e936";
+  }
+  .wiz_twitter:before {
+    content: "\e937";
+  }
+  .wiz_user:before {
+    content: "\e938";
+  }
+  .wiz_youtube:before {
+    content: "\e939";
+  }

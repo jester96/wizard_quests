@@ -1,5 +1,5 @@
 @import '_atoms.scss';
-@import '_buttons.scss';
+@import '_mixins.scss';
 
 //Geo Font Start
 
@@ -247,6 +247,58 @@ img {
 	-webkit-filter: $modal_bg_blur;
 }
 
+//Shadows & Glows
+
+.buttons_shadow {
+	@include block_sizes;
+	background: $white_color;
+	box-shadow: $buttons_shadow;
+}
+
+.main_shadow {
+	@include block_sizes;
+	background: $white_color;
+	box-shadow: $main_shadow;
+}
+
+.blue_glow {
+	@include block_sizes;
+	background: $white_color;
+	box-shadow: $blue_glow;
+}
+
+//Borderd Radiuses
+
+.b_radius_0 {
+	@include block_sizes;
+	background: $dark_blue_color;
+	border-radius: $b_radius_0;
+}
+
+.b_radius_small {
+	@include block_sizes;
+	background: $dark_blue_color;
+	border-radius: $b_radius_small;
+}
+
+.b_radius_medium {
+	@include block_sizes;
+	background: $dark_blue_color;
+	border-radius: $b_radius_medium;
+}
+
+.b_radius_big {
+	@include block_sizes;
+	background: $dark_blue_color;
+	border-radius: $b_radius_big;
+}
+
+.b_radius_circle {
+	@include block_sizes;
+	background: $dark_blue_color;
+	border-radius: $b_radius_circle;
+}
+
 //Atoms End
 
 .ge {
@@ -309,44 +361,32 @@ img {
 	}
 }
 
-.golden_gradient {
-	height: 50px;
-	width: 200px;
-	@include golden_gradient(10px);
-}
-
-.silver_gradient {
-	height: 50px;
-	width: 200px;
-	@include silver_gradient(10px);
-}
-
 .blue_btn {
-	@include blue_btn(70px, 200px, 6px);
+	@include blue_btn(70px, 20px, 6px);
 }
 
 .red_btn {
-	@include red_btn(70px, 200px, 6px);
+	@include red_btn(70px, 20px, 6px);
 }
 
 .yellow_btn {
-	@include yellow_btn(70px, 200px, 6px);
+	@include yellow_btn(70px, 20px, 6px);
 }
 
 .green_btn {
-	@include green_btn(70px, 200px, 6px);
+	@include green_btn(70px, 20px, 6px);
 }
 
 .purple_btn {
-	@include purple_btn(70px, 200px, 6px);
+	@include purple_btn(70px, 20px, 6px);
 }
 
 .fb_btn {
-	@include fb_btn(70px, 200px, 6px);
+	@include fb_btn(70px, 20px, 6px);
 }
 
 .google_btn {
-	@include google_btn(70px, 200px, 6px);
+	@include google_btn(70px, 20px, 6px);
 }
 
 .icon_div {

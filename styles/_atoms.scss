@@ -35,13 +35,13 @@ $footer_overlay: rgba(8,17,42,0.7);
 $modal_bg_overlay: rgba(5,12,28,0.8);
 $modal_bg_blur: blur(8px);
 
-//Borderd Weights
+//Borderd Radiuses
 
-$border_0: 0px;
-$border_small: 6px;
-$border_medium: 10px;
-$border_big: 30px;
-$border_circle: 50%;
+$b_radius_0: 0px;
+$b_radius_small: 6px;
+$b_radius_medium: 10px;
+$b_radius_big: 30px;
+$b_radius_circle: 50%;
 
 //Borderd Colors
 
@@ -77,4 +77,4 @@ $silver_gradient: rgb(250,225,201) 0%, rgb(163,151,141) 2%, rgb(234,214,197) 6%,
 
 $buttons_shadow: 0px 0px 45px 10px rgba(10, 45, 92, 0.2);
 $main_shadow: 0px 19px 36.98px 6.02px rgba(8, 19, 42, 0.3);
-$blue_glow: 0px 0px 67px 13px rgba(85, 151, 220, 0.004);
+$blue_glow: 0px 0px 67px 13px rgba(85, 151, 220, 0.1);
